@@ -5,6 +5,7 @@
 .main-banner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .main-welcome {
@@ -83,3 +84,6 @@
     font-weight: 300;
     color: #9aa0a6;
 }
+
+/* !fuck my head hurts */
+
