@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #292a2d;
+    font-family: 'Poppins', 'Noto Color Emoji',sans-serif;
+    
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+}

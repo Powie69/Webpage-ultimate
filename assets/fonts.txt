@@ -1,0 +1,12 @@
+font-family: 'Noto Color Emoji', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Poppins', sans-serif;
+
+Editorial
+Feature
+News
+photo
+Science
+sports
+
+#002DC9
