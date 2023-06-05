@@ -1,0 +1,131 @@
+.we-here-rn {
+    color: #3750CC;
+    font-weight: 600;
+    font-style: italic;
+}
+/* *banner */
+.banner {
+    margin: 1rem 2rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title img {
+    width: 4rem;
+}
+
+.banner-title h2 {
+    margin: 0px;
+    padding: 1rem;
+    display: inline;
+    font-size: 5rem;
+}
+
+/** banner buttons */
+.banner-buttons {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.banner-buttons-follow {
+    font-size: 1.5rem;
+    color: #fff;
+
+    padding: .5rem;
+    border: 3px solid #1e1e1e;
+    border-radius: 18px;
+    background-color: inherit;
+
+    display: flex;
+    align-items: center;
+}
+
+.banner-buttons-follow img {
+    width: 2rem;
+}
+
+.banner-buttons-follow img:hover {
+    
+}
+
+.banner-buttons-more {
+    background-color: inherit;
+    border: 0;
+}
+
+.banner-buttons-more img {
+    width: 2rem;
+}
+
+/** subjects */
+
+.subjects {
+    background-color: #1f1f1f;
+    border-radius: 18px;
+    width: fit-content;
+    padding: 0px .5rem;
+    border: 3px solid #5e5e5e;
+    margin: 0px 2rem;
+    position: sticky;
+    top: 100px;
+    left: 100vh;
+}
+
+.subjects ul {
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.subjects ul li:hover {
+    color: #3e5ae9;
+}
+
+/** main */
+.main { margin: 2rem;}
+
+.stories {
+    background-color: #1f1f1f;
+    border-radius: 18px;
+    padding: 1rem;
+    margin: 1rem 0px;    
+}
+
+.stories h2 {
+    font-size: 2rem;
+    margin: 15px 0px;
+}
+
+.stories-articleContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(390px,1fr));
+}
+
+.stories-articleItem img {
+    aspect-ratio: 16 / 9;
+    width: 390px;
+    border-radius: 18px;
+    margin-bottom: 5px;
+}
+
+.stories-articleItem h4 {
+    width: 390px;
+    margin: 10px 0px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.stories-articleItem h3 {
+    width: 390px;
+    margin: 10px 0px;
+}
+
+.stories-articleItem p {
+    margin: 10px 0px;
+}

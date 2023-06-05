@@ -1,3 +1,9 @@
+.we-here-rn {
+    color: #3750CC;
+    font-weight: 600;
+    font-style: italic;
+}
+
 .banner {
     margin: 2rem;
     display: flex;
@@ -93,6 +99,7 @@ main { margin: 2rem; }
 
 .stories-articleContainer {
     display: grid;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit,minmax(390px,1fr));
 }
 
@@ -105,6 +112,7 @@ main { margin: 2rem; }
 
 .stories-articleItem h4 {
     width: 390px;
+    margin: 10px 0px;
     border-bottom: 1px solid #5e5e5e;
 }
 
