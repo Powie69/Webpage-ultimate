@@ -1,0 +1,53 @@
+.we-here-rn {
+    color: #3750CC;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.main {
+    text-align: center;
+    margin: 0px 3rem;
+}
+
+.main h1 {
+    margin: 2rem 0px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.main-desc {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/** videos */
+
+.main-videos {
+    margin-top: 5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2,minmax(500px, 1fr));
+
+}
+
+.main-videos-item img {
+    aspect-ratio:  16 / 9;
+    width: 500px;
+    border-radius: 18px;
+    border: 5px double #5e5e5e;
+}
+
+.main-videos-item h6 {
+    font-size: 1.5rem;
+    margin: 1rem 0px;
+}
+
+.main-videos_main img{
+    width: 800px;
+
+}
+
+.main-videos_main h6{
+    font-size: 2.5rem;
+}
