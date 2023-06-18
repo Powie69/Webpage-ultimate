@@ -1,8 +1,6 @@
 # Booble News
 
-inspired by [google inc](https://news.google.com)
+[google](https://news.google.com)
 
 
 💩💩💩💩💩
-
-
